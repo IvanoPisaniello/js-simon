@@ -30,7 +30,7 @@ function countDownToCorrection() {
     console.log(targetDate)
     if (difference < 0) {
         countDown.innerHTML = "THE LESSON START NOW!";
-        return;
+        return;// serve a non fare ripartire il timer una volta arrivato a zero
     }
 
     let msec = difference;
@@ -48,3 +48,4 @@ function countDownToCorrection() {
 setInterval(() => {
     countDownToCorrection()
 }, 1000);
+
