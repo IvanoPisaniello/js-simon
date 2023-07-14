@@ -29,7 +29,7 @@ function countDownToCorrection() {
     //faccio un controllo sulla data target
     console.log(targetDate)
     if (difference < 0) {
-        countDown.innerHTML = "Tempo scaduto";
+        countDown.innerHTML = "THE LESSON START NOW!";
         return;
     }
 
